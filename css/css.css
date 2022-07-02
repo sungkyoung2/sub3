@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;list-style: none;font-family: 'Tai Heritage Pro', serif;color: #fff;}
+    a{text-decoration: none;color: inherit;}
+    body::-webkit-scrollbar {display: none;}
+    header{width: 100%;height:60px;background-color:#64b9b2;position:fixed;left: 0;top: 0;z-index: 99;}
+    #header_box{width: 1400px;height: 60px;margin: auto;}
+    #logo{width: 200px;height: 60px;line-height: 60px;float: left;text-align: center;}
+    #logo>img{width:160px;margin: auto;vertical-align: middle;}
+    #header_icon_box{float: right;width:200px;height: 60px;}
+    #header_icon_box>li{float: left;width:24px;line-height: 60px;margin-left:10px;}
+    #header_icon_box>li:nth-child(1){margin-left: 80px;}
+    #header_icon_box>li>img{width: 100%;vertical-align: middle;}
+    #header_menu{width:1000px;height: 60px;display: inline-block;margin: auto;text-align: center;}
+    #header_menu>li{width: 120px;height: 60px;display: inline-block;margin: 0 20px;line-height: 60px;font-weight: 400;color: #000;font-size: 18px;letter-spacing: -0.5px;}
+    
+    /*  */
+    #embassador_videobox{width:100%;height:800px;margin: auto;margin-top:0;overflow: hidden;}
+    #embassador_videobox>video{width: 100%;margin-top: -140px;}
+    /*  */
+    #profile1{width:1600px;height:800px;margin: auto;margin-top: 100px;background:linear-gradient(to right, #000 30%,transparent 100%),url(../images/profile1.jpg)center no-repeat;overflow: hidden;opacity: 0;}
+    #profile1_box{width: 1560px;height: 760px;margin: auto;border:2px solid #fff;margin-top:20px;padding: 100px;box-sizing: border-box;}
+    #profile1_box>h2{font-size: 50px;margin-top: 30px;opacity: 0;}
+    #profile1_box>h3{margin-left:150px;font-size: 36px;margin-top: 30px;opacity: 0;}
+    #profile1_box>p{width: 600px;margin-top: 100px;opacity: 0;}
+    #profile2{width:1600px;height:800px;margin: auto;margin-top: 100px;background: url(../images/profile2.jpg)center no-repeat;overflow: hidden;opacity: 0;}
+    #profile2_box{width: 1560px;height: 760px;margin: auto;border:2px solid #fff;margin-top:20px;padding: 100px;box-sizing: border-box;}
+    #profile2_box>h2{font-size: 50px;margin-top: 30px;opacity: 0;}
+    #profile2_box>h3{margin-left:170px;font-size: 36px;margin-top: 30px;opacity: 0;}
+    #profile2_box>p{width: 600px;margin-top: 100px;opacity: 0;}
+    #profile3{width:1600px;height:800px;margin: auto;margin-top: 100px;background: url(../images/profile3.jpg)center no-repeat;overflow: hidden;opacity: 0;}
+    #profile3_box{width: 1560px;height: 760px;margin: auto;border:2px solid #fff;margin-top:20px;padding: 100px;box-sizing: border-box;}
+    #profile3_box>h2{font-size:60px;margin-left:800px;margin-top: 30px;opacity: 0;}
+    #profile3_box>h3{margin-left:900px;font-size: 36px;margin-top: 30px;opacity: 0;}
+    #profile3_box>p{width: 600px;margin-top: 100px;margin-left:800px;opacity: 0;}
+    #profile4{width:1600px;height:800px;margin: auto;margin-top: 100px;background: url(../images/profile4.jpg)center no-repeat;overflow: hidden;opacity: 0;}
+    #profile4_box{width: 1560px;height: 760px;margin: auto;border:2px solid #fff;margin-top:20px;padding: 100px;box-sizing: border-box;}
+    #profile4_box>h2{font-size: 60px;margin-left: 800px;margin-top: 30px;opacity: 0;}
+    #profile4_box>h3{margin-left:900px;font-size: 36px;margin-top: 30px;opacity: 0;}
+    #profile4_box>p{width: 600px;margin-top: 100px;margin-left: 800px;opacity: 0;}
+    section div h2,section div h3{font-family: 'Shadows Into Light';}
+    /*  */
+    footer{width: 100%;height:100px;background-color:#fff;margin-top: 20px;position: relative;z-index: 999;background-color:#64b9b2;line-height: 100px;padding: 10px 200px;font-size: 14px;}
+    footer>p{width:260px;float: left;margin-left: 200px;color: #000;}
+    #footer_menu{width:700px;float: left;margin: auto;}
+    #footer_menu>li{display: inline-block;margin-right:20px;color: #000;}
+    #lag{float: left;}
+    #lag>li{color: #000;position: relative;}
+    #lag>li>img{width:12px;vertical-align: middle;}
+    .hover_lag{width: 100px;position: absolute;text-align: center;left: 0;top:-50px;line-height: 20px;display: none;}
+    .hover_lag>li{color: #000;}
+    #lag>li:hover>.hover_lag{display: inline-block;}

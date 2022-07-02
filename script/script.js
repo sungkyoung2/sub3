@@ -1,0 +1,40 @@
+$(document).ready(function(){
+    $(window).scroll(function(){
+        sc=$(window).scrollTop();
+        if(sc>=200){
+            $('#profile1').animate({'opacity':'1'},function(){
+                $('#profile1_box>h2').animate({'marginTop':'0','opacity':'1'})
+                $('#profile1_box>h3').animate({'marginTop':'0','opacity':'1'},function(){
+                    $('#profile1_box>p').animate({'opacity':'1'})
+                })
+            })
+        }
+        if(sc>=1000){
+            $('#profile2').animate({'opacity':'1'},function(){
+                $('#profile2_box>h2').animate({'marginTop':'0','opacity':'1'})
+                $('#profile2_box>h3').animate({'marginTop':'0','opacity':'1'},function(){
+                    $('#profile2_box>p').animate({'opacity':'1'})
+                })
+            })
+        }
+        if(sc>=1800){
+            $('#profile3').animate({'opacity':'1'},function(){
+                $('#profile3_box>h2').animate({'marginTop':'0','opacity':'1'})
+                $('#profile3_box>h3').animate({'marginTop':'0','opacity':'1'},function(){
+                    $('#profile3_box>p').animate({'opacity':'1'})
+                })
+            })
+        }
+        if(sc>=2600){
+            $('#profile4').animate({'opacity':'1'},function(){
+                $('#profile4_box>h2').animate({'marginTop':'0','opacity':'1'})
+                $('#profile4_box>h3').animate({'marginTop':'0','opacity':'1'},function(){
+                    $('#profile4_box>p').animate({'opacity':'1'})
+                })
+            })
+        }
+
+    })
+    $('#embassador_videobox').delay(500).animate({'width':'1600px','marginTop':'140px','height':'600px'},2000)
+
+})
